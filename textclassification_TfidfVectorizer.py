@@ -7,7 +7,7 @@ import streamlit as st
 import pickle
 
 #Read our dataset using read_csv()
-review = pd.read_csv(r'C:\Users\ATHULRAJ B C\OneDrive\Desktop\Textclassification_TfidfVectorizer\reviews.csv')
+review = pd.read_csv('reviews.csv')
 review = review.rename(columns={'text': 'review'})
 
 #split data
