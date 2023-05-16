@@ -1,1 +1,1 @@
-Sci-kit learn
+sci-kit learn
